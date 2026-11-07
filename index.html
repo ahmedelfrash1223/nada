@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-background":"#1e1a21","tertiary-container":"#b7ac73","surface-container-high":"#eee5ef","error":"#ba1a1a","surface-container":"#f4ebf5","on-secondary-container":"#6a5f6f","secondary-container":"#ebdbee","on-primary-fixed":"#281232","on-tertiary-fixed-variant":"#4f4718","inverse-surface":"#332f36","secondary-fixed":"#edddf0","on-error-container":"#93000a","surface-container-lowest":"#ffffff","on-error":"#ffffff","inverse-on-surface":"#f7eef8","on-secondary-fixed-variant":"#4e4352","background":"#fff7ff","on-surface-variant":"#4b454c","surface":"#fff7ff","tertiary":"#685f2e","on-primary":"#ffffff","on-secondary-fixed":"#211826","on-tertiary-fixed":"#211c00","inverse-primary":"#dcbce5","on-tertiary":"#ffffff","surface-dim":"#e0d7e1","primary-container":"#674d70","primary-fixed-dim":"#dcbce5","primary-fixed":"#f8d8ff","on-tertiary-container":"#474012","surface-variant":"#e8e0e9","secondary-fixed-dim":"#d1c2d4","surface-container-highest":"#e8e0e9","surface-bright":"#fff7ff","outline":"#7d747d","error-container":"#ffdad6","surface-tint":"#6f5578","on-secondary":"#ffffff","tertiary-fixed-dim":"#d3c78c","surface-container-low":"#faf1fb","on-surface":"#1e1a21","primary":"#4e3658","on-primary-container":"#e2c1eb","tertiary-fixed":"#f0e3a5","on-primary-fixed-variant":"#563e60","secondary":"#665a6a","outline-variant":"#cec3cd"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-sm":"0.5rem","space-xs":"0.25rem","gutter-mobile":"1rem","space-xl":"3rem","space-md":"1rem","margin":"4rem","space-lg":"1.75rem","margin-mobile":"1.5rem","gutter":"1.5rem"},"fontFamily":{"body-lg":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-hero":["Playfair Display"],"display-hero-mobile":["Playfair Display"],"headline-lg":["Playfair Display"]},"fontSize":{"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"40px","fontWeight":"400"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","fontWeight":"500"}],"headline-sm":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"display-hero":["72px",{"lineHeight":"80px","letterSpacing":"-0.02em","fontWeight":"400"}],"display-hero-mobile":["42px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(103,77,112,0.05)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between"><a class="flex items-center gap-2 group" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface group-hover:text-primary transition-colors">NADA<span class="text-primary-container ml-0.5">.</span></span><span class="font-label-sm text-label-sm tracking-widest text-on-surface-variant uppercase hidden sm:inline-block pl-2 border-l border-outline-variant/30">Studio</span></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-primary font-label-lg underline underline-offset-8 decoration-primary/40"><a aria-current="page" class="transition-colors text-primary font-label-lg underline underline-offset-8 decoration-primary/40" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#">Services</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="portfolio" href="#">Portfolio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center px-space-md py-space-sm rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg hover:bg-primary-container hover:text-on-primary transition-all duration-200 shadow-[0_2px_12px_rgba(103,77,112,0.06)]" data-path="contact" href="#">Let's Talk</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+    <!-- HERO SECTION -->
+    <section class="relative w-full overflow-hidden bg-surface py-space-xl">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center min-h-[calc(85vh-5rem)]">
+                <!-- Hero Text Column -->
+                <div class="lg:col-span-7 flex flex-col items-start justify-center pr-0 lg:pr-space-md">
+                    <!-- Category Eyebrow Pill -->
+                    <div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-full bg-secondary-container text-primary font-label-sm text-label-sm tracking-widest uppercase mb-space-lg shadow-sm">
+                        <span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                        GRAPHIC DESIGNER &amp; BRANDING DESIGNER
+                    </div>
+                    <!-- Headline -->
+                    <h1 class="font-display-hero text-headline-lg-mobile md:text-display-hero text-on-surface tracking-tight leading-[1.08] mb-space-md">
+                        Designing Ideas <br/>
+                        <span class="italic font-normal text-primary-container">Into Visual</span> Stories.
+                    </h1>
+                    <!-- Refined Subtext -->
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-space-lg font-light leading-relaxed">
+                        Hi, I’m Nada — an independent graphic and brand identity designer helping mindful brands, luxury labels, and cultural projects shape unforgettable visual narratives through timeless art direction.
+                    </p>
+                    <!-- Primary Actions -->
+                    <div class="flex flex-wrap items-center gap-space-md mb-space-xl">
+                        <a class="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg tracking-wide hover:bg-primary transition-all duration-300 shadow-md hover:-translate-y-0.5" href="#selected-works">
+                            Explore My Work
+                            <span class="material-symbols-outlined ml-2 text-lg">arrow_downward</span>
+                        </a>
+                        <a class="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-surface-container-low text-primary font-label-lg text-label-lg tracking-wide hover:bg-secondary-container transition-all duration-300 shadow-sm" href="#contact">
+                            Contact Me
+                        </a>
+                    </div>
+                    <!-- Social Proof / Key Stats Bar -->
+                    <div class="w-full pt-space-lg bg-surface-container-low/60 rounded-xl p-space-md">
+                        <div class="flex flex-wrap items-center justify-between gap-space-md">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+                                <span class="font-label-lg text-label-lg text-on-surface">6+ Years</span>
+                                <span class="font-body-sm text-body-sm text-on-surface-variant">Experience</span>
+                            </div>
+                            <div class="w-px h-6 bg-outline-variant/30 hidden sm:block"></div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[20px]">palette</span>
+                                <span class="font-label-lg text-label-lg text-on-surface">45+</span>
+                                <span class="font-body-sm text-body-sm text-on-surface-variant">Brand Identities</span>
+                            </div>
+                            <div class="w-px h-6 bg-outline-variant/30 hidden sm:block"></div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[20px]">stars</span>
+                                <span class="font-label-lg text-label-lg text-on-surface">Featured</span>
+                                <span class="font-body-sm text-body-sm text-on-surface-variant">on Behance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Social Links -->
+                    <div class="flex items-center gap-space-md mt-space-md pt-2">
+                        <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Connect:</span>
+                        <div class="flex items-center gap-space-md font-label-lg text-label-lg text-primary">
+                            <a class="hover:text-primary-container transition-colors" href="#">Behance</a>
+                            <span class="text-outline-variant/40">/</span>
+                            <a class="hover:text-primary-container transition-colors" href="#">Dribbble</a>
+                            <span class="text-outline-variant/40">/</span>
+                            <a class="hover:text-primary-container transition-colors" href="#">Instagram</a>
+                            <span class="text-outline-variant/40">/</span>
+                            <a class="hover:text-primary-container transition-colors" href="#">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Portrait Column -->
+                <div class="lg:col-span-5 flex justify-center lg:justify-end mt-space-lg lg:mt-0 relative">
+                    <!-- Ambient decorative backdrop glow -->
+                    <div class="absolute -top-12 -right-12 w-96 h-96 bg-secondary-fixed/50 rounded-full blur-3xl -z-10"></div>
+                    <div class="absolute -bottom-8 -left-8 w-80 h-80 bg-tertiary-fixed/30 rounded-full blur-2xl -z-10"></div>
+                    <!-- Framed Portrait Container -->
+                    <div class="relative w-full max-w-[430px] rounded-[2.5rem] p-3 bg-surface-container-lowest shadow-[0_20px_50px_-15px_rgba(103,77,112,0.18)]">
+                        <div class="relative w-full h-[520px] rounded-[2rem] overflow-hidden bg-surface-container">
+                            <img alt="Nada — Independent Graphic &amp; Branding Designer" class="w-full h-full object-cover object-center filter contrast-[1.03]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtZHBnJJahwAQLyKoG5KaUyLcwWysT4F_yu8D4ou1PwZXu0QvkuPK9sDr0cWyQRef3v2yBhnfRb5RpOtWan-b2ZOQlSne_uU2-xXjaiiUTwjyoRV0vTxUvf48q6MPBLdzj6MMSGDLM7UYqe7UXcuFqMNA86fddmLhaDlVDAB4rDDFPJvY_dpjJ6GRP_4jBfUoCIaLSB4pPK0JLZyoPKyCOHLSr1ra58pbJLbb_yk0Q1FJPggq2Zm8R_Q"/>
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent pointer-events-none"></div>
+                        </div>
+                        <!-- Floating Editorial Tag Badge -->
+                        <div class="absolute -bottom-4 -left-4 bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-lg flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Specialization</span>
+                                <span class="font-headline-sm text-[16px] text-on-surface leading-tight font-medium">Creative Direction &amp; Identity</span>
+                            </div>
+                        </div>
+                        <!-- Accent Stamp -->
+                        <div class="absolute -top-3 -right-3 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm tracking-wider uppercase shadow-sm">
+                            Art Director
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SELECTED PROJECTS SECTION -->
+    <section class="w-full py-space-xl bg-surface-container-low/40" id="selected-works">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+                <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest block mb-space-xs font-semibold">SELECTED ARCHIVE / 2023–2025</span>
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight">Curated Works &amp; Brand Systems</h2>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant max-w-md font-light">
+                    A showcase of visual identities, packaging die-lines, and tactile editorial explorations crafted for discerning international boutique brands.
+                </p>
+            </div>
+            <!-- Filter Tabs -->
+            <div class="flex flex-wrap items-center gap-2 mb-space-xl">
+                <button class="px-5 py-2 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm">All Works (8)</button>
+                <button class="px-5 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-secondary-container transition-colors font-label-lg text-label-lg">Brand Identity</button>
+                <button class="px-5 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-secondary-container transition-colors font-label-lg text-label-lg">Packaging Design</button>
+                <button class="px-5 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-secondary-container transition-colors font-label-lg text-label-lg">Editorial</button>
+                <button class="px-5 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-secondary-container transition-colors font-label-lg text-label-lg">Logo &amp; Type</button>
+                <button class="px-5 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-secondary-container transition-colors font-label-lg text-label-lg">Advertising</button>
+            </div>
+            <!-- Asymmetric Editorial Grid Showcase (8 Realistic Works) -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-start">
+                <!-- PROJECT 1: Aurélia Atelier (Featured 7 cols) -->
+                <div class="md:col-span-7 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close up photography of Aurélia Atelier luxury French perfume packaging box with embossed violet monogram A and glass fragrance flacon on natural linen fabric with dried lavender stems and wax seal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYb7ceBpVCbxZ3CZEcKXImDI9an_Ngr8dC5b4RfWXg4hBFlcvDU5P9zlbpg6HFUnMo2ctnNVuJ-c1Sjvey8vqqg9oBJ5rbR7lysx2D6lsi9gHeyMdDFT_suGmiRqHG79JMLenC2xRtL559xmSqWs3xDwDvTgP2FSlOIftAaH6gHMh_s83WcxqR3fhC63ZY___ISuZ9jVrq9fpYIY8q1GriiV1ZBj5382okEukvfoT8"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Brand Identity &amp; Monogram
+                        </div>
+                        <div class="absolute top-4 right-4 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-md text-headline-sm md:text-headline-md text-on-surface group-hover:text-primary transition-colors">
+                                Aurélia Atelier Luxury Identity
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            A bespoke visual identity and embossed stationery system for Parisian haute parfumerie, balancing historical craft with minimalist typography.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 2: Lavender & Sage Botanical (5 cols) -->
+                <div class="md:col-span-5 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Lavender and Sage organic botanical apothecary skincare bottles and lavender gift box packaging arranged on rustic wooden surface with dried herbs, glass dropper bottles, and gold foil logo details." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO--K5dbwW15P7kwj8QpiwM2ytav9bZfRcb71auE1leSBLjGylK6U9oVFcuTlOskW5mTLNzp9zSca59rlUYefRQGpgU8hvU8h7uPw47n2X5oQfzDKBD92orMW6EOefyiNFhegIBZxDzEciBPdBCKbjEkGM_cJZWgJwFXvj9Yn-dWzcNnkOk9IDJTvDIAV-O7Ewfl6xcgDK5s1lsnpYFP9aUW4N8rtFBIi-SOrUGPdg"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Packaging &amp; Print
+                        </div>
+                        <div class="absolute top-4 right-4 bg-secondary-fixed text-on-secondary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                                Lavender &amp; Sage Botanical Apothecary
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Eco-luxe organic skincare packaging featuring delicate botanical gold foil illustrations, recycled lilac stock, and amber dropper vials.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 3: Vertic Magazine Editorial (5 cols) -->
+                <div class="md:col-span-5 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Open editorial layout of Vertic avant-garde art and architecture fashion magazine spread showing high fashion photography, sculpted typography layout, and lilac graphic accents on a minimal concrete plinth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAbPLY5n9_bvYI_eIQ6aQpjOh5Mx6c4PyMoh9VAZ1rAoLpdhlMCYW0RpREvBnizz0UzAVB_glBrS89X8QoA71snbn5vbA30rMbDGSz9m7UcdUFv8iutm0qgpCU0hfjOMRUZ5PXsBVXp2ZkosPXgLjKEYXOaXG4YiP0C46V2ioZZXHgsQgo6xGsE7L6B7B4nJP-RtsX3ZKSgCOxnTdkpEcilzQQIkTCUGBCFNheG9ZF"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Editorial &amp; Typography
+                        </div>
+                        <div class="absolute top-4 right-4 bg-surface-container text-on-surface px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                                Vertic Avant-Garde Magazine Layout
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Modern architectural fashion publication layout with sculpted grid systems, experimental serif headlines, and tactile offset print execution.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 4: Atelier Noir Heritage Stationery (7 cols) -->
+                <div class="md:col-span-7 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-surface-container">
+                        <img alt="Atelier Noir Heritage Stationery" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVysncXbV95rCqlk8S8VOYsWVkjHu-s46_1bvf52cF5ILxgutrKnRIHg_XlOODnLvO6MjU3P8vCu1TeQw_qZxGQ_GbfBF8gLgLvyC8yj7OXEfda9vJlRdFT_B19ofxzpBTbBcM2vSOxld-_kqbJJyIRjlVlCfrNJ95RqGFPTSwRJHtQXJ6okD74hTw6Dia7W5Y2EIS2hyveLU8YiNf1FVZIeLwNC5_tC2HWCfAoymy"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Luxury Stationery
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2023
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-md text-headline-sm md:text-headline-md text-on-surface group-hover:text-primary transition-colors">
+                                Atelier Noir Heritage Stationery
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Deep plum wax seal envelopes, tactile business cards, and gilded bespoke crests crafted for a boutique legal and cultural consultancy.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 5: AURA Beauty Social Visual Grid (6 cols) -->
+                <div class="md:col-span-6 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img alt="AURA Beauty Digital Visual Grid" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmn1T5bGsi8G3SJPg0jsatrgb-SbxPAixDxTKtQnpiBeif-hzphDNYbTb693qv9za-8CUjPT96O44Z2IdX-VIMvD-UqluVNZZKYecY5VBMh_s91_-lWWpzUZNL7L15qLh5s9cb4s9Yf9OAyTAGiVxPWpxeAg5yb5vLDwgK6uhTVkh5wsyu4CFESR6xgVgqsM2SQI3l_0BI4yt1fYG1SusGX9Eh4_abasjZbH1b5h7A"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Social Media &amp; Art Direction
+                        </div>
+                        <div class="absolute top-4 right-4 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                                AURA Beauty Digital Visual Grid
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Curated multi-post Instagram aesthetic and visual storytelling feed system in soft lilac, creamy ecru, and modern editorial type.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 6: Maison Luna Artisan Patisserie (6 cols) -->
+                <div class="md:col-span-6 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img alt="Maison Luna Artisan Patisserie" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDES1cQsTmyXLrc1pBbkzn-os3-eQc8dxdPM5y1edYchGRho7tVrkQtfN-kAbwWaKXtYiT1r6R1sp3uDaKFHeAlVA0AVuwIYvs9x07qr7tM1N4QsRVnFukj_Ol9tpAuYjt_BWY0-qSIFxZ57o1Bm1koiqhN2XTmuKel0Eda9NYE1MC7Pcw_XcukAG1aEzoxFs8TyBVFr8BQT_2o3AqnC699gyagZMj82q4Qg5tWtlJ"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Packaging &amp; Cafe Identity
+                        </div>
+                        <div class="absolute top-4 right-4 bg-secondary-fixed text-on-secondary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                                Maison Luna Artisan Patisserie
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Violet and gold embossed pastry packaging, custom coffee cups, and tactile menu design celebrating Mediterranean confectionery.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 7: Maison Élégance Type Exploration (5 cols) -->
+                <div class="md:col-span-5 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container">
+                        <img alt="Maison Élégance Type Exploration" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM-keuRWz2mP9uldxDX9GpKZ9ozD9xt3WYsdeDRXN7cDMcGnSIASJuye6170ljY7kBwKMAkmMNn2WlQkHpANEi9vdoqlTzJldkYgMriISjkXWsoxFucoUH3qLoWXGjWgmc0577fgsgMHCnxvEKchC8DvKOeiBsdJdV38CufZeSmQyq0RCIe_tbqD3uJKkwvUsHfRmKB-7fRthYBEvXSO1p9soCc3dxEikID9rtMsL-"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Logo &amp; Typography
+                        </div>
+                        <div class="absolute top-4 right-4 bg-surface-container text-on-surface px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2023
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                                Maison Élégance Type Exploration
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Modern serif ligatures and geometric glyph studies for high fashion identity, exploring high-contrast stroke weights and kerning balance.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+                <!-- PROJECT 8: The Aura Collection Billboard & Poster Series (7 cols) -->
+                <div class="md:col-span-7 flex flex-col group bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-surface-container">
+                        <img alt="The Aura Collection Billboard &amp; Poster Series" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcPISdplxwFO8MPkd_m4V6tNhLlopH7JGVINNJFP9oG0zOkLIqVi0ntFo9_G3biXyYoeeNAiLnxMibCw5tDM54lUgy4A8axKvDeQFpkbzov33cLNhQuaOpliFyULpAHB5lwbL1-Hcwb1JBb2rzID7DADNsbYi0sACzf2dvGxsE70PL1Efzp1sW2-tLDUz66ykPbRiG-vdFuwrxfxuiKAIdw3CMgm78wzbaixVPwgcX"/>
+                        <div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                            Advertising &amp; Outdoor Campaign
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-label-sm font-label-sm">
+                            2024
+                        </div>
+                    </div>
+                    <div class="pt-space-md flex flex-col">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-headline-md text-headline-sm md:text-headline-md text-on-surface group-hover:text-primary transition-colors">
+                                The Aura Collection Billboard &amp; Poster Series
+                            </h3>
+                            <span class="material-symbols-outlined text-primary-container transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-sm font-light">
+                            Nightfall Paris campaign featuring atmospheric violet lighting, high-contrast poster typography, and immersive metropolitan placement.
+                        </p>
+                        <span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Sample project mockup — modular case study</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION ('Meet Nada') -->
+    <section class="w-full py-space-xl bg-surface" id="about">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+                <!-- Left Column: Quote Card & Stylized Detail -->
+                <div class="lg:col-span-5 flex flex-col gap-space-md">
+                    <div class="relative bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm">
+                        <div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-primary mb-space-md">
+                            <span class="material-symbols-outlined text-[28px]">format_quote</span>
+                        </div>
+                        <blockquote class="font-headline-sm text-headline-sm text-on-surface leading-snug font-normal italic mb-space-md">
+                            "I believe graphic design is not merely decoration; it is the deliberate translation of human emotion and brand truth into visual form."
+                        </blockquote>
+                        <div class="flex items-center gap-3 pt-space-sm">
+                            <div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm font-bold">
+                                N
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="font-label-lg text-label-lg text-on-surface font-semibold">Nada</span>
+                                <span class="font-body-sm text-body-sm text-on-surface-variant">Founder &amp; Principal Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Micro Metric Bento Plate -->
+                    <div class="grid grid-cols-2 gap-space-sm">
+                        <div class="bg-surface-container-low p-space-md rounded-2xl">
+                            <span class="font-display-hero text-headline-md text-primary font-serif">100%</span>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Bespoke Vector &amp; Typography Craft</p>
+                        </div>
+                        <div class="bg-surface-container-low p-space-md rounded-2xl">
+                            <span class="font-display-hero text-headline-md text-tertiary font-serif">Cairo</span>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Global Remote Commissions</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column: Biography & Capabilities -->
+                <div class="lg:col-span-7 flex flex-col pl-0 lg:pl-space-lg">
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest block mb-space-xs font-semibold">BIOGRAPHY &amp; ART DIRECTION</span>
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight mb-space-md">Meet Nada</h2>
+                    <div class="space-y-space-md font-body-lg text-body-md md:text-body-lg text-on-surface-variant font-light leading-relaxed">
+                        <p>
+                            Trained in visual communications, my practice bridges Arabesque artistic sensitivity with contemporary European editorial minimalism. Over the past six years, I have collaborated with fragrance houses, fashion publications, and independent artisans across Cairo, Paris, and Dubai.
+                        </p>
+                        <p>
+                            My design philosophy rests on <strong class="text-on-surface font-medium">clarity, intention, and tactile elegance</strong>. Every typographic curve and color balance must tell an authentic story that commands reverence on the retail shelf and digital screen alike.
+                        </p>
+                    </div>
+                    <!-- Capabilities Tags -->
+                    <div class="mt-space-lg pt-space-md">
+                        <span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface block mb-3 font-semibold">Capabilities &amp; Core Tools</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Adobe Illustrator</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Adobe InDesign</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Adobe Photoshop</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Figma</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Packaging Die-lines</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Bespoke Monograms</span>
+                            <span class="px-3.5 py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-body-sm text-body-sm">Print Production</span>
+                        </div>
+                    </div>
+                    <!-- Download Resume / CV -->
+                    <div class="mt-space-lg flex items-center gap-space-md">
+                        <a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary-container text-on-secondary-container font-label-lg text-label-lg hover:bg-primary-container hover:text-on-primary transition-all duration-300 shadow-sm" href="#contact">
+                            <span class="material-symbols-outlined text-lg">download</span>
+                            Download Studio Credentials
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES SECTION (Tailored Capabilities) -->
+    <section class="w-full py-space-xl bg-surface-container-low/50" id="services">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <div class="text-center max-w-2xl mx-auto mb-space-xl">
+                <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest block mb-space-xs font-semibold">WHAT I OFFER</span>
+                <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight mb-space-xs">Tailored Design Capabilities</h2>
+                <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                    From full-scale identity overhauls to bespoke packaging runs, every deliverable is grounded in strategic vision and artisanal precision.
+                </p>
+            </div>
+            <!-- 6 Sleek Service Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+                <!-- Service 1 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">style</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Brand Identity Design</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Comprehensive brand design including foundational guidelines, tailored color palettes, type pairing rules, and tone-of-voice directives.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Guidelines • Systems • Cohesion</span>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">interests</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Logo Design &amp; Type</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Handcrafted vector marks, ligatures, bespoke luxury monograms, and custom typographic wordmarks tailored to your sector.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Monograms • Vectors • Wordmarks</span>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">grid_view</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Social Media Design</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Harmonious digital art direction for Instagram and Pinterest feeds, modular campaign story kits, and Figma marketing templates.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Grid Layouts • Story Kits • Assets</span>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">inventory_2</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Packaging Design</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Structural die-lines, tactile finishes (embossing, debossing, foil stamping), bottle labels, and unboxing rituals for beauty &amp; food brands.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Die-lines • Foils • Unboxing</span>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">menu_book</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Print &amp; Editorial</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Lookbooks, coffee table monographs, stationery suites, exhibition catalogs, and brochures featuring disciplined typographic grids.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Lookbooks • Stationery • Magazines</span>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+                            <span class="material-symbols-outlined">photo_camera</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Creative Art Direction</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Holistic visual strategy, editorial campaign moodboards, photography styling guidance, and visual cohesion across campaigns.
+                        </p>
+                    </div>
+                    <div class="pt-space-md mt-space-md">
+                        <span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Moodboards • Photoshoots • Vision</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CREATIVE PROCESS SECTION -->
+    <section class="w-full py-space-xl bg-surface">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+                <div>
+                    <span class="font-label-sm text-label-sm text-primary uppercase tracking-widest block mb-space-xs font-semibold">HOW WE COLLABORATE</span>
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight">A Thoughtful, 4-Step Process</h2>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant max-w-sm font-light">
+                    An organized creative journey calibrated to eliminate ambiguity and produce museum-grade deliverables.
+                </p>
+            </div>
+            <!-- 4 Process Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+                <!-- Step 1 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-low flex flex-col justify-between">
+                    <div>
+                        <span class="font-headline-lg text-[40px] text-primary/40 font-serif block mb-space-sm">01</span>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Discovery &amp; Research</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Uncovering your brand core, competitive landscape, target audience desires, and defining the emotional hooks that make you distinct.
+                        </p>
+                    </div>
+                    <div class="mt-space-md pt-space-sm flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                        Phase 1 • Blueprint
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-low flex flex-col justify-between">
+                    <div>
+                        <span class="font-headline-lg text-[40px] text-primary/40 font-serif block mb-space-sm">02</span>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Concept &amp; Direction</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Developing two distinct visual territories with curated moodboards, exploratory sketches, typographic palettes, and raw references.
+                        </p>
+                    </div>
+                    <div class="mt-space-md pt-space-sm flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                        Phase 2 • Visual Vision
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-low flex flex-col justify-between">
+                    <div>
+                        <span class="font-headline-lg text-[40px] text-primary/40 font-serif block mb-space-sm">03</span>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Design &amp; Iteration</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Crafting pixel-perfect vectors, 3D packaging mockups, stationery samples, and refining the selected concept through thoughtful critique.
+                        </p>
+                    </div>
+                    <div class="mt-space-md pt-space-sm flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                        Phase 3 • Refinement
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="p-space-lg rounded-2xl bg-surface-container-low flex flex-col justify-between">
+                    <div>
+                        <span class="font-headline-lg text-[40px] text-primary/40 font-serif block mb-space-sm">04</span>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Final Handover</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant font-light">
+                            Supplying comprehensive vector source files, production-ready print proofs, and clear brand identity manual guidelines for smooth rollouts.
+                        </p>
+                    </div>
+                    <div class="mt-space-md pt-space-sm flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                        Phase 4 • Launch Kit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT / INQUIRY SECTION -->
+    <section class="w-full py-space-xl bg-surface-container-high/40" id="contact">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+            <div class="bg-surface-container-lowest rounded-3xl p-space-lg md:p-space-xl shadow-lg">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+                    <!-- Left Column: Inquiry Briefing -->
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div>
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-primary font-label-sm text-label-sm tracking-wider uppercase mb-space-md">
+                                <span class="w-2 h-2 rounded-full bg-tertiary"></span>
+                                Available for Q2/Q3 Commissions
+                            </div>
+                            <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight mb-space-sm leading-tight">
+                                Have a Project in Mind?
+                            </h2>
+                            <p class="font-body-lg text-body-lg text-on-surface-variant font-light mb-space-lg">
+                                Let’s create something meaningful together. I collaborate with clients globally, shaping distinctive identities that endure.
+                            </p>
+                        </div>
+                        <!-- Direct Contact Data Plaque -->
+                        <div class="p-space-md bg-surface-container-low rounded-2xl space-y-space-sm mt-space-md">
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary mt-0.5">mail</span>
+                                <div>
+                                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant block">Direct Email</span>
+                                    <a class="font-body-md text-body-md text-primary font-medium hover:underline" href="mailto:hello@nadadesign.studio">
+                                        hello@nadadesign.studio
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary mt-0.5">location_on</span>
+                                <div>
+                                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant block">Location</span>
+                                    <p class="font-body-md text-body-md text-on-surface">Cairo, Egypt • Available Worldwide</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-tertiary mt-0.5">schedule</span>
+                                <div>
+                                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant block">Response Time</span>
+                                    <p class="font-body-md text-body-md text-on-surface">Within 24–48 business hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column: Interactive Contact Form -->
+                    <div class="lg:col-span-7 bg-surface p-space-md md:p-space-lg rounded-2xl">
+                        <form class="space-y-space-md" id="portfolio-contact-form" onsubmit="event.preventDefault(); document.getElementById('form-feedback').classList.remove('hidden'); this.reset();">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                                <div class="flex flex-col gap-1">
+                                    <label class="font-label-sm text-label-sm uppercase text-on-surface font-semibold" for="client-name">Your Name</label>
+                                    <input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline-variant/60 focus:outline-none focus:ring-2 focus:ring-primary-container shadow-sm" id="client-name" placeholder="e.g. Sarah Laurent" required="" type="text"/>
+                                </div>
+                                <div class="flex flex-col gap-1">
+                                    <label class="font-label-sm text-label-sm uppercase text-on-surface font-semibold" for="client-email">Email Address</label>
+                                    <input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline-variant/60 focus:outline-none focus:ring-2 focus:ring-primary-container shadow-sm" id="client-email" placeholder="s.laurent@brand.com" required="" type="email"/>
+                                </div>
+                            </div>
+                            <!-- Service Needed Pill Selector -->
+                            <div class="flex flex-col gap-1.5">
+                                <label class="font-label-sm text-label-sm uppercase text-on-surface font-semibold">Service Needed</label>
+                                <div class="flex flex-wrap gap-2 pt-1" id="service-pills">
+                                    <button class="service-pill px-4 py-2 rounded-full text-label-sm font-label-sm bg-primary-container text-on-primary shadow-sm" onclick="selectService(this)" type="button">Brand Identity</button>
+                                    <button class="service-pill px-4 py-2 rounded-full text-label-sm font-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-secondary-container" onclick="selectService(this)" type="button">Packaging Design</button>
+                                    <button class="service-pill px-4 py-2 rounded-full text-label-sm font-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-secondary-container" onclick="selectService(this)" type="button">Editorial &amp; Print</button>
+                                    <button class="service-pill px-4 py-2 rounded-full text-label-sm font-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-secondary-container" onclick="selectService(this)" type="button">Art Direction</button>
+                                    <button class="service-pill px-4 py-2 rounded-full text-label-sm font-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-secondary-container" onclick="selectService(this)" type="button">Complete Rebrand</button>
+                                </div>
+                            </div>
+                            <!-- Estimated Budget Dropdown -->
+                            <div class="flex flex-col gap-1">
+                                <label class="font-label-sm text-label-sm uppercase text-on-surface font-semibold" for="client-budget">Estimated Budget</label>
+                                <select class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary-container shadow-sm" id="client-budget">
+                                    <option value="3k-5k">$3,000 – $5,000 USD</option>
+                                    <option selected="" value="5k-10k">$5,000 – $10,000 USD</option>
+                                    <option value="10k-20k">$10,000 – $20,000 USD</option>
+                                    <option value="20k+">$20,000+ USD</option>
+                                </select>
+                            </div>
+                            <!-- Project Details -->
+                            <div class="flex flex-col gap-1">
+                                <label class="font-label-sm text-label-sm uppercase text-on-surface font-semibold" for="client-details">Project Details &amp; Timeline</label>
+                                <textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline-variant/60 focus:outline-none focus:ring-2 focus:ring-primary-container shadow-sm resize-none" id="client-details" placeholder="Tell me about your brand vision, target deadlines, and what you aim to achieve..." required="" rows="4"></textarea>
+                            </div>
+                            <button class="w-full py-4 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg tracking-wide hover:bg-primary transition-all duration-300 shadow-md flex items-center justify-center gap-2" type="submit">
+                                Send Inquiry
+                                <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                            </button>
+                            <div class="hidden p-3 rounded-lg bg-secondary-container text-primary font-body-sm text-body-sm text-center" id="form-feedback">
+                                Thank you! Your project inquiry has been received. Nada will respond shortly.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script>
+        function selectService(button) {
+            const pills = document.querySelectorAll('.service-pill');
+            pills.forEach(pill => {
+                pill.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+                pill.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+            });
+            button.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+            button.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+        }
+    </script></main><footer class="w-full bg-surface-container-low"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg"><div class="pb-space-xl"><p class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary tracking-tight max-w-5xl leading-tight">NADA — CREATIVE VISION &amp; BRAND STORYTELLING</p><p class="font-body-md text-body-md text-on-surface-variant mt-space-sm max-w-xl">Editorial art direction, thoughtful brand identities, and tactile packaging crafted for discerning cultural, luxury, and boutique ventures worldwide.</p></div><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter py-space-lg"><div class="md:col-span-5 flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Studio Presence</span><p class="font-body-md text-body-md text-on-surface">Cairo <span class="text-outline-variant mx-1.5">/</span> Paris <span class="text-outline-variant mx-1.5">/</span> Worldwide Commissions</p></div><div class="md:col-span-4 flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Digital Archives &amp; Social</span><div class="flex flex-wrap gap-x-space-md gap-y-space-xs font-label-lg text-label-lg"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Behance</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Dribbble</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Instagram</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">LinkedIn</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Pinterest</a></div></div><div class="md:col-span-3 flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Studio Navigation</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="portfolio" href="#">Selected Works</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#">Design Capabilities</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">Design Philosophy</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Inquiries &amp; Press</a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 Nada Studio. All rights reserved.</p><p class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Crafted with editorial discipline</p></div></div></footer></body></html>
